@@ -1,8 +1,10 @@
-# Fix ForgeGradle build configuration
+# Gradle 8 buildscript compatibility
 
 ## Changed
 
-- Restored the Gradle wrapper to Gradle 2.14.1, which is compatible with the
-  ForgeGradle 1.2 plugin used by the Minecraft 1.7.10 build.
-- Documented the supported Java version and wrapper-based build commands.
-- Corrected the installation requirements for the Minecraft 1.7.10 branch.
+- Replaced the obsolete ForgeGradle 1.2 plugin with RetroFuturaGradle, which
+  supports Minecraft 1.7.10 projects on the current Gradle wrapper.
+- Migrated the archive name and resource expansion configuration to supported
+  Gradle APIs.
+- Added plugin resolution repositories and an explicit root project name.
+- Updated the source-build documentation for the Gradle 8 toolchain.

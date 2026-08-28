@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'GTNH Maven'
+            url = uri('https://nexus.gtnewhorizons.com/repository/public/')
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'LootableBodies1.7.10fix'
